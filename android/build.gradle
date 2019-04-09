@@ -47,5 +47,5 @@ repositories {
 
 dependencies {
     compile "com.android.support:support-v4:${safeExtGet('supportLibVersion', '27.+')}"
-    api 'com.facebook.react:react-native:+'
+    compile 'com.facebook.react:react-native:+'
 }
